@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/register.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-container">
+    <center><h2>Register</h2></center>
+    <center><p id="error"></p></center>
+    <form>
+        <label class="labelStyle">Username:</label>
+        <input type="text" id="username">
+    
+        <br/>
+        <br/>
+    
+        <label class="labelStyle">Name:</label>
+        <input type="text" id="name">
+        
+        <br/>
+        <br/>
+
+        <label class="labelStyle">Gender</label> 
+    <select name="gender" id="gender"> 
+        <option value="male">Male</option> 
+        <option value="female">Female</option> 
+        <option value="Others">others </option> 
+    </select>
+
+    <br/>
+    <br/>
+
+    <label class="labelStyle">Password:</label>
+    <input type="password" id="password">
+    
+    <br/>
+    <br/>
+
+    <center><button class="button" href="#" onclick="register()">Register</button></center>
+
+    <br/>
+    <br/>
+
+    <center><a class="register" href="#">Already Register?</a></center>
+    </form>
+    </div>
+</body>
+</html>
